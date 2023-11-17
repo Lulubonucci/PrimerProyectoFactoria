@@ -1,0 +1,253 @@
+#logo {
+  width: 60%;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+#logo img {
+  width: 10%;
+  align-self: center;
+  margin-left: 70px;
+}
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: baseline;
+  position: fixed;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  justify-content: space-between;
+  margin-right: 70px;
+}
+.boton {
+  height: 20px;
+  width: 20vw;
+}
+.iphone {
+  width: 1200px;
+  height: 800px;
+}
+.img-iphone {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 90px;
+}
+.boton1 {
+  color: rgb(255, 83, 126);
+  background-color: white;
+  border: none;
+  font-weight: bolder;
+}
+.boton2 {
+  color: rgb(255, 83, 126);
+  border-color: rgb(255, 83, 126);
+  border-radius: 70px;
+  font-size: 15px;
+  font-weight: bolder;
+  background-color: white;
+}
+.titulos-menu {
+  margin: 20px;
+  padding: 20px;
+  font-weight: bolder;
+}
+.menu-desplegable {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.contenido-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  width: 140%;
+  flex-direction: column;
+  font-weight: bolder;
+  background-color: white;
+}
+
+.menu-desplegable:hover .contenido-menu {
+  display: flex;
+}
+.img-verde-amarilla {
+  width: 100%;
+  display: flex;
+}
+#img-verde {
+  width: 15px;
+  height: 15px;
+  padding-left: 4%;
+}
+#img-amarilla {
+  width: 30px;
+  height: 30px;
+  padding-left: 88%;
+}
+.header {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.header h1 {
+  font-size: 50px;
+}
+.header p {
+  width: 30%;
+  text-align: center;
+}
+.btns {
+  color: white;
+  border-color: rgb(255, 83, 126);
+  border-radius: 200px;
+  font-weight: bolder;
+  background-color: rgb(255, 83, 126);
+  width: 150px;
+  height: 45px;
+}
+.btn {
+  display: flex;
+  width: 17%;
+  justify-content: space-between;
+}
+.img-azul {
+  width: 60px;
+  display: flex;
+  padding-left: 80px;
+}
+.iconos {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 140px;
+  margin-top: 100px;
+}
+.circulo1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #d7bde2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circulo2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #abebc6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circulo3 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #f8bbd0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circulo4 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #fcf3cf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circulo5 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #d6eaf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.padding {
+  padding-top: 100px;
+}
+.texto-iconos {
+  font-weight: bolder;
+}
+.segunda-parte {
+  width: 100%;
+  margin-top: 140px;
+  background-color: rgb(251, 251, 251);
+  display: flex;
+}
+.contenedor-img-segunda {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.img-segunda-parte {
+  width: 600px;
+}
+.aside-segunda-parte {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.aside-segunda-parte h1 {
+  font-size: 60px;
+  width: 60%;
+}
+.aside-segunda-parte p {
+  font-size: 25px;
+  width: 60%;
+  color: rgb(127, 127, 127);
+}
+.aside-segunda-parte ul {
+  font-size: 25px;
+  width: 60%;
+  color: rgb(127, 127, 127);
+}
+.btn-ligth {
+  width: 62%;
+}
+.contenedor-tercera-parte {
+  width: 100%;
+  background-color: rgb(208, 236, 255);
+  display: flex;
+}
+.btn-tercera-parte{
+  display: flex;
+  align-items: center;
+}
+.btn-separado{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.articulo-tercera-parte{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.articulo-tercera-parte ul{
+  list-style: none;
+}
+.img-tercera-parte{
+  width: 50%;
+  display: flex;
+}
+.contenedor-shedule{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
